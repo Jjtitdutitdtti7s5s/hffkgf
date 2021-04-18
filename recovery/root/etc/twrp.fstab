@@ -3,6 +3,7 @@
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
 
 # mount point  fstype  device                             device2                flags
+system		/system			ext4
 /product																         flags=display="Product"
 /vendor																          flags=display="Vendor"
 /odm																	         flags=display="ODM"
